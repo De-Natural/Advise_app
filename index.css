@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height: 300px;
+    width: 40%;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bill_board{
+    height: 220px;
+    width: 350px;
+    display: grid;
+    gap: 10px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+}
+.bill_board span{
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+}
+.bill_board p{
+    color: #fff;
+}
+.img-box{
+    height: 20px;
+    width: 320px;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+
+@media screen and (max-width: 767px){
+    main{
+        width: 90%;
+    }
+    .bill_board{
+        width: 80%;
+    }
+    .img-box{
+        width: 80%;
+    }
+}
