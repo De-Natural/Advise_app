@@ -32,8 +32,12 @@ main{
     /* border: 1px solid red; */
     padding-top: 10px;
 }
-.bill_board span{
-    font-size: 15px;
+.bill_board p{
+    font-size: 25px;
+    color: hsl(150, 100%, 66%);
+}
+.bill_board p>span{
+    font-size: 20px;
     color: hsl(150, 100%, 66%);
 }
 .bill_board p{
